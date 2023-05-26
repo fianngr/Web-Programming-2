@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2023 at 05:25 PM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 7.4.30
+-- Waktu pembuatan: 26 Bulan Mei 2023 pada 15.27
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sayur`
+-- Database: `maycake`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ci_sessions`
+-- Struktur dari tabel `ci_sessions`
 --
 
 CREATE TABLE `ci_sessions` (
@@ -35,7 +35,7 @@ CREATE TABLE `ci_sessions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `ci_sessions`
+-- Dumping data untuk tabel `ci_sessions`
 --
 
 INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
@@ -108,12 +108,15 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('8br1qlg20lpl0aqu79q824e7a2r2v6ks', '::1', 1602661482, 0x5f5f63695f6c6173745f726567656e65726174657c693a313630323636313438323b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a2266373264333266633832363833346464653662306539373064383834353433316234306534633663373365643733666634356433393465656237626338636539386537373464323539333561373962383365323432623236613061663539356331373136323634346239303762323733613732633965626466623034363439646b694e6c4748463970656d766141393372333763366961477a7239336579783845714b7050706a474f2b4377693350556c372b5948325730782f37314d7250564b79356d337135324e3172466668706f742f7a77573856524f6a377978656a51566c656a5972516862322b674645615256737462765a427072364c7967655231223b),
 ('7933p5ed08enaipdr4p2pa4hcqnfc8hb', '::1', 1602661744, 0x5f5f63695f6c6173745f726567656e65726174657c693a313630323636313436343b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a2230613866386530373638316532316162313732353366633734393533323738653864343962383466666338643165663438306663366333666139363939383035626238373861306664643764663761643262373262333432346466663539643532353962303862376365333230373565393830616337363035363533346632383038655956314144452f4c67662b53696f49496f7849716444426c4d67625a7751756d58374a51654577692f6a6b483338634c61444e4b4b793370566c56786c734d52524f5971684c73673578434a4b677357782f786b4a61696e434e64766e4e774e44437357374a7654665a5168765757765254694b48306d434139434857223b),
 ('rcfi6f2kd2fbfeupf6sg1btam08td3ir', '::1', 1602663866, 0x5f5f63695f6c6173745f726567656e65726174657c693a313630323636333836363b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a2266373264333266633832363833346464653662306539373064383834353433316234306534633663373365643733666634356433393465656237626338636539386537373464323539333561373962383365323432623236613061663539356331373136323634346239303762323733613732633965626466623034363439646b694e6c4748463970656d766141393372333763366961477a7239336579783845714b7050706a474f2b4377693350556c372b5948325730782f37314d7250564b79356d337135324e3172466668706f742f7a77573856524f6a377978656a51566c656a5972516862322b674645615256737462765a427072364c7967655231223b),
-('ro4319q6o504h1qh61g3emumjesu7qsp', '::1', 1602664038, 0x5f5f63695f6c6173745f726567656e65726174657c693a313630323636333836363b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a2266373264333266633832363833346464653662306539373064383834353433316234306534633663373365643733666634356433393465656237626338636539386537373464323539333561373962383365323432623236613061663539356331373136323634346239303762323733613732633965626466623034363439646b694e6c4748463970656d766141393372333763366961477a7239336579783845714b7050706a474f2b4377693350556c372b5948325730782f37314d7250564b79356d337135324e3172466668706f742f7a77573856524f6a377978656a51566c656a5972516862322b674645615256737462765a427072364c7967655231223b);
+('ro4319q6o504h1qh61g3emumjesu7qsp', '::1', 1602664038, 0x5f5f63695f6c6173745f726567656e65726174657c693a313630323636333836363b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a2266373264333266633832363833346464653662306539373064383834353433316234306534633663373365643733666634356433393465656237626338636539386537373464323539333561373962383365323432623236613061663539356331373136323634346239303762323733613732633965626466623034363439646b694e6c4748463970656d766141393372333763366961477a7239336579783845714b7050706a474f2b4377693350556c372b5948325730782f37314d7250564b79356d337135324e3172466668706f742f7a77573856524f6a377978656a51566c656a5972516862322b674645615256737462765a427072364c7967655231223b),
+('17ep2vlggn8oojhp5neuq5d9b5lr3mci', '::1', 1685105779, 0x5f5f63695f6c6173745f726567656e65726174657c693a313638353130353737393b7265646972656374696f6e7c4e3b);
+INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
+('c2chekdbefse4rhrsvmaq8g74v7vjhnr', '::1', 1685105865, 0x5f5f63695f6c6173745f726567656e65726174657c693a313638353130353737393b7265646972656374696f6e7c4e3b5f5f4143544956455f53455353494f4e5f444154417c733a3235363a223966636262626262303437373663636236313734666630356233663437623038613034333462313866323662343830663564623334383962613164396330353837316262393063633739323166663831346363383161393666343031383135643264663161626234336335393766626435366662353538636265393737336537714e486742387833615546374148384636594b6265582f6d51414d4b79433658515644457970756e6b2b745a464a7632496869694a6b4a426262326a2f6765564f496251446c53434b4b4e547a7a776f2f375275524e4f67696e4e78434276787545416e504878526e7239366e77785961443750352b4b6361697a4b56735334223b);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `contacts`
+-- Struktur dari tabel `contacts`
 --
 
 CREATE TABLE `contacts` (
@@ -131,7 +134,7 @@ CREATE TABLE `contacts` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `coupons`
+-- Struktur dari tabel `coupons`
 --
 
 CREATE TABLE `coupons` (
@@ -145,7 +148,7 @@ CREATE TABLE `coupons` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `coupons`
+-- Dumping data untuk tabel `coupons`
 --
 
 INSERT INTO `coupons` (`id`, `name`, `code`, `credit`, `start_date`, `expired_date`, `is_active`) VALUES
@@ -155,7 +158,7 @@ INSERT INTO `coupons` (`id`, `name`, `code`, `credit`, `start_date`, `expired_da
 -- --------------------------------------------------------
 
 --
--- Table structure for table `customers`
+-- Struktur dari tabel `customers`
 --
 
 CREATE TABLE `customers` (
@@ -168,19 +171,21 @@ CREATE TABLE `customers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `customers`
+-- Dumping data untuk tabel `customers`
 --
 
 INSERT INTO `customers` (`id`, `user_id`, `name`, `phone_number`, `address`, `profile_picture`) VALUES
 (7, 8, 'sindi ovtapiani', '0831100200200', 'astana anyar', NULL),
 (8, 9, 'arnold', '089100200', 'tanah abang jakarta', 'admin1.png'),
 (9, 10, 'Chef juna', '0877777123', 'Bintaro Jakarta', 'juna1.jpg'),
-(10, 11, 'Megawati', '0813444334', 'tanah abang jakarta', '1111.png');
+(10, 11, 'Megawati', '0813444334', 'tanah abang jakarta', '1111.png'),
+(11, 12, 'Muhammad Alfian Nugroho', '082187261070', 'jl.mawar srengseng sawah', NULL),
+(12, 13, 'Maycake', '082188881213', 'jl.margonda raya', NULL);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `orders`
+-- Struktur dari tabel `orders`
 --
 
 CREATE TABLE `orders` (
@@ -199,7 +204,7 @@ CREATE TABLE `orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `orders`
+-- Dumping data untuk tabel `orders`
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `coupon_id`, `order_number`, `order_status`, `order_date`, `total_price`, `total_items`, `payment_method`, `delivery_data`, `delivered_date`, `finish_date`) VALUES
@@ -219,7 +224,7 @@ INSERT INTO `orders` (`id`, `user_id`, `coupon_id`, `order_number`, `order_statu
 -- --------------------------------------------------------
 
 --
--- Table structure for table `order_item`
+-- Struktur dari tabel `order_item`
 --
 
 CREATE TABLE `order_item` (
@@ -231,7 +236,7 @@ CREATE TABLE `order_item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `order_item`
+-- Dumping data untuk tabel `order_item`
 --
 
 INSERT INTO `order_item` (`id`, `order_id`, `product_id`, `order_qty`, `order_price`) VALUES
@@ -260,7 +265,7 @@ INSERT INTO `order_item` (`id`, `order_id`, `product_id`, `order_qty`, `order_pr
 -- --------------------------------------------------------
 
 --
--- Table structure for table `payments`
+-- Struktur dari tabel `payments`
 --
 
 CREATE TABLE `payments` (
@@ -275,7 +280,7 @@ CREATE TABLE `payments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `payments`
+-- Dumping data untuk tabel `payments`
 --
 
 INSERT INTO `payments` (`id`, `order_id`, `payment_price`, `payment_date`, `picture_name`, `payment_status`, `confirmed_date`, `payment_data`) VALUES
@@ -285,7 +290,7 @@ INSERT INTO `payments` (`id`, `order_id`, `payment_price`, `payment_date`, `pict
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Struktur dari tabel `products`
 --
 
 CREATE TABLE `products` (
@@ -304,7 +309,7 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `products`
+-- Dumping data untuk tabel `products`
 --
 
 INSERT INTO `products` (`id`, `category_id`, `sku`, `name`, `description`, `picture_name`, `price`, `current_discount`, `stock`, `product_unit`, `is_available`, `add_date`) VALUES
@@ -338,7 +343,7 @@ INSERT INTO `products` (`id`, `category_id`, `sku`, `name`, `description`, `pict
 -- --------------------------------------------------------
 
 --
--- Table structure for table `product_category`
+-- Struktur dari tabel `product_category`
 --
 
 CREATE TABLE `product_category` (
@@ -347,7 +352,7 @@ CREATE TABLE `product_category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `product_category`
+-- Dumping data untuk tabel `product_category`
 --
 
 INSERT INTO `product_category` (`id`, `name`) VALUES
@@ -357,7 +362,7 @@ INSERT INTO `product_category` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `reviews`
+-- Struktur dari tabel `reviews`
 --
 
 CREATE TABLE `reviews` (
@@ -371,7 +376,7 @@ CREATE TABLE `reviews` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `reviews`
+-- Dumping data untuk tabel `reviews`
 --
 
 INSERT INTO `reviews` (`id`, `user_id`, `order_id`, `title`, `review_text`, `review_date`, `status`) VALUES
@@ -384,7 +389,7 @@ INSERT INTO `reviews` (`id`, `user_id`, `order_id`, `title`, `review_text`, `rev
 -- --------------------------------------------------------
 
 --
--- Table structure for table `roles`
+-- Struktur dari tabel `roles`
 --
 
 CREATE TABLE `roles` (
@@ -393,7 +398,7 @@ CREATE TABLE `roles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `roles`
+-- Dumping data untuk tabel `roles`
 --
 
 INSERT INTO `roles` (`id`, `role_name`) VALUES
@@ -403,7 +408,7 @@ INSERT INTO `roles` (`id`, `role_name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `settings`
+-- Struktur dari tabel `settings`
 --
 
 CREATE TABLE `settings` (
@@ -413,11 +418,11 @@ CREATE TABLE `settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `settings`
+-- Dumping data untuk tabel `settings`
 --
 
 INSERT INTO `settings` (`id`, `key`, `content`) VALUES
-(1, 'current_theme_name', 'Cakefoods'),
+(1, 'current_theme_name', 'vegefoods'),
 (2, 'store_name', 'MayCake'),
 (3, 'store_phone_number', '085777150913'),
 (4, 'store_email', 'maycake@gmail.com'),
@@ -433,7 +438,7 @@ INSERT INTO `settings` (`id`, `key`, `content`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -449,7 +454,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `username`, `password`, `profile_picture`, `role_id`, `register_date`) VALUES
@@ -458,40 +463,42 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `username`, `pa
 (8, NULL, 'sindi@demo.com', NULL, 'sindi', '$2y$10$oqxGsv1cutiF9ge4aLdppu4EEpdgHLW.E.cEY1.N7Ro95W9navViC', NULL, 2, '2020-10-12 05:16:28'),
 (9, NULL, 'arnold@demo.com', NULL, 'Arnold', '$2y$10$jgxPQoXYTQektORTTsZ.ee64KYd03zNkgk1UQZGRIpmJ2qKOov2Vu', NULL, 2, '2020-10-13 18:35:22'),
 (10, NULL, 'juna@demo.com', NULL, 'Juna', '$2y$10$EIgeRurDwWYlzxdg15IHo.p9LP8A1tA8HvJRAneuOO9ilp92JfyCW', NULL, 2, '2020-10-13 18:52:14'),
-(11, NULL, 'megawati@demo.com', NULL, 'Megawati', '$2y$10$8rBxmWX78lzg2ihJsytFKOlfD/Bl8vIkCz/zkyFQHk5kKyEgmu5G2', NULL, 2, '2020-10-13 19:01:55');
+(11, NULL, 'megawati@demo.com', NULL, 'Megawati', '$2y$10$8rBxmWX78lzg2ihJsytFKOlfD/Bl8vIkCz/zkyFQHk5kKyEgmu5G2', NULL, 2, '2020-10-13 19:01:55'),
+(12, NULL, 'alfiannugroho95@gmail.com', NULL, 'fianngr_', '$2y$10$uUvUxsE9kbNnVCe7GGZlL./LXeV1C.s.nVDarVaXPDOfezGgU4TFi', NULL, 2, '2023-05-26 14:55:45'),
+(13, NULL, 'Maycake@gmail.com', NULL, 'maycake', '$2y$10$WqNTWnaYSTFQA5ia6JDC8OsogFEIugdgRTARvjEvRC1VdgbJorCO2', NULL, 1, '2023-05-26 14:56:52');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `ci_sessions`
+-- Indeks untuk tabel `ci_sessions`
 --
 ALTER TABLE `ci_sessions`
   ADD KEY `ci_sessions_timestamp` (`timestamp`);
 
 --
--- Indexes for table `contacts`
+-- Indeks untuk tabel `contacts`
 --
 ALTER TABLE `contacts`
   ADD PRIMARY KEY (`id`),
   ADD KEY `FK_contacts_contacts` (`parent_id`);
 
 --
--- Indexes for table `coupons`
+-- Indeks untuk tabel `coupons`
 --
 ALTER TABLE `coupons`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `customers`
+-- Indeks untuk tabel `customers`
 --
 ALTER TABLE `customers`
   ADD PRIMARY KEY (`id`),
   ADD KEY `FK_customers_users` (`user_id`);
 
 --
--- Indexes for table `orders`
+-- Indeks untuk tabel `orders`
 --
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`id`),
@@ -499,7 +506,7 @@ ALTER TABLE `orders`
   ADD KEY `FK_orders_coupons` (`coupon_id`);
 
 --
--- Indexes for table `order_item`
+-- Indeks untuk tabel `order_item`
 --
 ALTER TABLE `order_item`
   ADD PRIMARY KEY (`id`),
@@ -507,27 +514,27 @@ ALTER TABLE `order_item`
   ADD KEY `product_id` (`product_id`);
 
 --
--- Indexes for table `payments`
+-- Indeks untuk tabel `payments`
 --
 ALTER TABLE `payments`
   ADD PRIMARY KEY (`id`),
   ADD KEY `order_id` (`order_id`);
 
 --
--- Indexes for table `products`
+-- Indeks untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`),
   ADD KEY `FK_products_product_category` (`category_id`);
 
 --
--- Indexes for table `product_category`
+-- Indeks untuk tabel `product_category`
 --
 ALTER TABLE `product_category`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `reviews`
+-- Indeks untuk tabel `reviews`
 --
 ALTER TABLE `reviews`
   ADD PRIMARY KEY (`id`),
@@ -535,19 +542,19 @@ ALTER TABLE `reviews`
   ADD KEY `FK_reviews_orders` (`order_id`);
 
 --
--- Indexes for table `roles`
+-- Indeks untuk tabel `roles`
 --
 ALTER TABLE `roles`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `settings`
+-- Indeks untuk tabel `settings`
 --
 ALTER TABLE `settings`
   ADD PRIMARY KEY (`id`) USING BTREE;
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`) USING BTREE,
@@ -555,106 +562,106 @@ ALTER TABLE `users`
   ADD KEY `role_id` (`role_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `contacts`
+-- AUTO_INCREMENT untuk tabel `contacts`
 --
 ALTER TABLE `contacts`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `coupons`
+-- AUTO_INCREMENT untuk tabel `coupons`
 --
 ALTER TABLE `coupons`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT for table `customers`
+-- AUTO_INCREMENT untuk tabel `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- AUTO_INCREMENT for table `orders`
+-- AUTO_INCREMENT untuk tabel `orders`
 --
 ALTER TABLE `orders`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
--- AUTO_INCREMENT for table `order_item`
+-- AUTO_INCREMENT untuk tabel `order_item`
 --
 ALTER TABLE `order_item`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
--- AUTO_INCREMENT for table `payments`
+-- AUTO_INCREMENT untuk tabel `payments`
 --
 ALTER TABLE `payments`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
--- AUTO_INCREMENT for table `product_category`
+-- AUTO_INCREMENT untuk tabel `product_category`
 --
 ALTER TABLE `product_category`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
--- AUTO_INCREMENT for table `reviews`
+-- AUTO_INCREMENT untuk tabel `reviews`
 --
 ALTER TABLE `reviews`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT for table `roles`
+-- AUTO_INCREMENT untuk tabel `roles`
 --
 ALTER TABLE `roles`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `settings`
+-- AUTO_INCREMENT untuk tabel `settings`
 --
 ALTER TABLE `settings`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `contacts`
+-- Ketidakleluasaan untuk tabel `contacts`
 --
 ALTER TABLE `contacts`
   ADD CONSTRAINT `FK_contacts_contacts` FOREIGN KEY (`parent_id`) REFERENCES `contacts` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
--- Constraints for table `customers`
+-- Ketidakleluasaan untuk tabel `customers`
 --
 ALTER TABLE `customers`
   ADD CONSTRAINT `FK_customers_users` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE;
 
 --
--- Constraints for table `orders`
+-- Ketidakleluasaan untuk tabel `orders`
 --
 ALTER TABLE `orders`
   ADD CONSTRAINT `FK_orders_coupons` FOREIGN KEY (`coupon_id`) REFERENCES `coupons` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
   ADD CONSTRAINT `FK_orders_users` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE;
 
 --
--- Constraints for table `payments`
+-- Ketidakleluasaan untuk tabel `payments`
 --
 ALTER TABLE `payments`
   ADD CONSTRAINT `FK_payments_orders` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
