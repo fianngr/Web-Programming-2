@@ -189,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
-            <span class="subheading">Testimony</span>
+            <span class="subheading">Question</span>
           <h2 class="mb-4">Apa yang pelanggan kami katakan?</h2>
         </div>
       </div>
