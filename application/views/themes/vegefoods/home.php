@@ -161,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </section>
   
-  <section class="ftco-section img" style="background-image: url(<?php echo get_theme_uri('images/product/kartun11.jpg'); ?>);">
+  <section class="ftco-section img" style="background-image: url(<?php echo get_theme_uri('images/product/kue.jpg'); ?>);">
   <div class="container">
           <div class="row justify-content-end">
     <div class="col-md-8 heading-section ftco-animate deal-of-the-day ftco-animate">
